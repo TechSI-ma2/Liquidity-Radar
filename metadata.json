@@ -1,0 +1,6 @@
+{
+  "name": "Liquidity Radar Terminal",
+  "description": "Real-time cryptocurrency order book liquidity analysis, heatmap, wall detection, and 15m Coinbase prediction terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
