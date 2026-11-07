@@ -1,4 +1,5 @@
-import { PRODUCTS_CONFIG, PriceLevel } from '../types/radar';
+import { PRODUCTS_CONFIG } from '../types/radar.ts';
+import type { PriceLevel } from '../types/radar.ts';
 
 export interface RawLevelUpdate {
   side: 'bid' | 'offer' | 'ask' | 'buy' | 'sell';

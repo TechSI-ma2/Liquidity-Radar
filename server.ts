@@ -4,17 +4,17 @@ import http from 'http';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { WebSocketServer, WebSocket } from 'ws';
-import { OrderBookManager } from './src/engine/orderBookManager';
-import { LiquidityDetector } from './src/engine/liquidityDetector';
-import { CoinbasePredictionModule } from './src/engine/coinbasePredictionModule';
-import { CoinbaseAdvancedAdapter } from './src/adapters/coinbaseAdapter';
-import { AlertService } from './src/services/alertService';
-import { StorageService } from './src/services/storageService';
-import {
+import { OrderBookManager } from './src/engine/orderBookManager.ts';
+import { LiquidityDetector } from './src/engine/liquidityDetector.ts';
+import { CoinbasePredictionModule } from './src/engine/coinbasePredictionModule.ts';
+import { CoinbaseAdvancedAdapter } from './src/adapters/coinbaseAdapter.ts';
+import { AlertService } from './src/services/alertService.ts';
+import { StorageService } from './src/services/storageService.ts';
+import type {
   PairTelemetry,
   RadarBroadcastPayload,
   SupportedCryptoAsset
-} from './src/types/radar';
+} from './src/types/radar.ts';
 
 dotenv.config();
 

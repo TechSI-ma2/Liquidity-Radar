@@ -1,12 +1,12 @@
 import crypto from 'crypto';
-import { SynchronizedOrderBook } from './orderBookManager';
-import {
+import { SynchronizedOrderBook } from './orderBookManager.ts';
+import type {
   HeatmapBucket,
   LiquidityAlert,
   LiquidityCluster,
   LiquidityWall,
   PairTelemetry
-} from '../types/radar';
+} from '../types/radar.ts';
 
 interface TrackedWallState {
   id: string;

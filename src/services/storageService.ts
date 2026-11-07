@@ -1,4 +1,4 @@
-import { HistoricalSnapshotRecord, LiquidityAlert, PairTelemetry } from '../types/radar';
+import type { HistoricalSnapshotRecord, LiquidityAlert, PairTelemetry } from '../types/radar.ts';
 
 export class StorageService {
   private memorySnapshots: Map<string, HistoricalSnapshotRecord[]> = new Map();

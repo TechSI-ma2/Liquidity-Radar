@@ -1,11 +1,11 @@
-import {
+import type {
   BinaryPredictionContract,
   Candle15m,
   CoinbasePredictionTelemetry,
   PairTelemetry,
   PredictionSignalFactor,
   SupportedCryptoAsset
-} from '../types/radar';
+} from '../types/radar.ts';
 
 const ASSETS: Array<{ asset: SupportedCryptoAsset; productId: string; pairSymbol: string }> = [
   { asset: 'BTC', productId: 'BTC-USD', pairSymbol: 'BTC/USDT' },

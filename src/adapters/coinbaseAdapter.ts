@@ -1,7 +1,9 @@
 import WebSocket from 'ws';
-import { OrderBookManager, RawLevelUpdate } from '../engine/orderBookManager';
-import { CoinbasePredictionModule } from '../engine/coinbasePredictionModule';
-import { ConnectionStatus, PRODUCTS_CONFIG } from '../types/radar';
+import { OrderBookManager } from '../engine/orderBookManager.ts';
+import type { RawLevelUpdate } from '../engine/orderBookManager.ts';
+import { CoinbasePredictionModule } from '../engine/coinbasePredictionModule.ts';
+import { PRODUCTS_CONFIG } from '../types/radar.ts';
+import type { ConnectionStatus } from '../types/radar.ts';
 
 const COINBASE_WS_URL =
   process.env.COINBASE_WS_URL || 'wss://advanced-trade-ws.coinbase.com';
