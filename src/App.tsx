@@ -78,7 +78,7 @@ export default function App() {
               Liquidity Radar
             </h1>
             <p className="text-xs text-slate-400 mt-0.5">
-              Order Book & 15m Flow Analytics
+              Created By Tech.SI ma2
             </p>
           </div>
 
